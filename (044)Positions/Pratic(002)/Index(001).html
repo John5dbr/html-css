@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        @font-face {
+            font-family: 'font';
+            src: url(handmade_17/Handmade.otf) format(opentype);
+        }
+        * {
+            margin: 0px;
+            padding: 0px;
+        }
+        body {
+            margin: 0px 0px;
+            background-color: rgb(22, 131, 226);
+        }
+        header {
+            border: 2px solid black;
+            margin: 20px 30px;
+            background-color: white;
+        }
+        header > h1 {
+            font-size: 2.5em;
+            line-height: 70px;
+            height: 70px;
+            text-align: center;
+            font-family: 'font';
+        }
+        main {
+            margin: 0px 30px;
+            position: relative;
+            bottom: 80px;
+        }
+        div:hover {
+            border: 5px solid rgb(0, 255, 255);
+        }
+        div:active {
+            border: 5px solid rgb(8, 238, 8);
+        }
+        div {
+            height: 280px;
+            text-align: center;
+            line-height: 60px;
+            width: 30%;
+            position: absolute;
+            background-color:  white;
+            border: 5px solid black;
+        }
+        #pri {
+            margin: 0px 0px; 
+            top: 50%;
+            transform: translateY(50%);
+        } 
+        #seg {
+            margin: 0px 0px; 
+            top: 145px;
+            right: 50%;
+            transform: translatex(50%);
+        }
+        #ter {
+            margin: 0px 0px; 
+            right: 0px;
+            top: 50%;
+            transform: translateY(50%);
+        }
+        img {
+            border: 2px solid black;
+            height: 130px;
+            position: relative;
+            bottom: -10px;
+        }
+        footer {
+            border: 2px solid black;
+            margin: 0px 0px;
+            padding: 10px;
+            background-color: white;
+            text-align: center;
+            position: relative;
+            top: 450px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Barbearia Lótus</h1>
+    </header>
+    <main>
+        <div id="pri">
+            <h2>1° Corte</h2>
+            <img src="corte-de-cabelo-engracado.jpg" alt="">
+            <h2>Valor: R$ 12.00</h2>
+        </div>
+        <div id="seg">
+            <h2>2° Corte</h2>
+            <img src="6d0765ce79b2b28286c82c98e31bc326.jpg" alt="">
+            <h2>Valor: R$ 22.00</h2>
+        </div>
+        <div id="ter">
+            <h2>3° Corte</h2>
+            <img src="piores-cortes-de-cabelo.jpg" alt="">
+            <h2>Valor: R$ 32.00</h2>
+        </div>
+    </main>
+    <footer>
+        <p>Valores cobrados devido a dignissima barbearia Lotus proporciona a seus clientes, se nessecario entrar em contato por meio do nosso numero: (xx) xxxxx-xxxx</p>
+    </footer>
+</body>
+</html>

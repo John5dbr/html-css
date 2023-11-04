@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Khand&display=swap');
+        @font-face {
+            font-family: 'merda';
+            src: url('sla/fantasy_magist/FANTASY\ MAGIST.otf') format(opentype);
+        }
+        :root {
+            --cor1: #0c4b8563;
+            --cor2: #a7515e62;
+            --cor3: #36475a63;
+        } 
+        * {
+            margin: 0px;
+            padding: 0px;
+        }
+        #espac {
+            z-index: 0;
+            position: fixed;
+            width: 100%;
+            height: 100%;
+        }
+        #homi {
+            height: 400px;
+            top: 70px;
+            transform: translateX(50%);
+            right: 50%;
+            z-index: 1;
+            position: absolute;
+        }
+        div {
+            text-align: center;
+            line-height: 65px;
+            width: 100%;
+            height: 55px;
+            bottom: 0px;
+            position: fixed;
+            background: linear-gradient(120deg, var(--cor1), var(--cor2), var(--cor3));
+        }
+        p {
+            text-decoration: none;
+            font-family: 'khand';
+            font-size: 2em;
+            color: white;
+        }
+        p:hover {
+            text-decoration: underline;
+        }
+        p:hover::before {
+            content: '\1F8A1\00A0';
+        }
+        p:hover::after {
+            content: '\00A0\1F8A0';
+        }
+    </style>
+</head>
+<body>
+    <img id="homi" src="imagens/astronauta.png">
+    <img id="espac" src="imagens/espaco.jpg">
+    <div>
+        <a href="https://canaltech.com.br/espaco/" target="_self">
+            <p>OLA MUNDO</p>
+        </a>
+    </div>
+</body>
+</html>

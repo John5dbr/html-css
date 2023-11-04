@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            background-color: darkgray;
+        }
+        header {
+            margin-top: 20px;
+            padding-bottom: 25px;
+            border: 2px solid black;
+            margin-left: 20px;
+            margin-right: 20px;
+            text-align: center;
+            background-color: white;
+        }
+        nav > a {
+            border: 1px solid black;
+            margin-left: 10px;
+            margin-right: 10px;
+            padding: 5px;
+            background-color: grey;
+            color: black;
+            text-decoration: none;
+        }
+        a:hover {
+            background-color: rgb(211, 211, 211);
+            color: rgb(0, 0, 0);
+            
+        }
+        p, h2 {
+            text-align: justify;
+            margin-left: 20px;
+            margin-right: 20px;
+        }
+        footer {
+            font-size: 0.8;
+            text-align: center;
+            margin-top: 180px;
+        }
+        .aquitbm::after {
+            content: ' <';
+        }
+        .aquitbm::before {
+            content: '> ';
+        }
+        h1, h2 {
+            text-shadow: 1px 1px 2px rgb(66, 66, 66);
+        }
+        p#creditos {
+            margin: auto;
+            outline: 2px solid black; 
+            padding: 5px;
+            width: 170px;
+            border-radius: 10px;
+            text-align: center;
+            background-color: rgb(115, 136, 136);
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Meus sites</h1>
+        <nav> <a href="">Link(1)</a>    -    <a href="">Link(2)</a> - <a href="">Link(3)</a> </nav>
+    </header>
+    <main>
+        <section id="esporte">
+            <article>
+                <h2 class="">Lorem daw, ipsum dolor</h2>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Obcaecati praesentium enim rerum totam aliquid voluptatum nisi culpa debitis quae ducimus nulla vitae hic, quod magni? Perferendis quos repudiandae eius voluptas?</p>
+            </article>
+        </section>
+        <section id="intelectu">
+                <h2 class="aquitbm">Lorem ipsum dolor sit</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Est eum commodi omnis asperiores voluptatibus tempore voluptatem excepturi perferendis molestias, suscipit nihil consectetur iusto eveniet odio repellat ea ipsam dicta porro! Lorem ipsum dolor sit amet consectetur.</p>
+        </section>
+    </main>
+    <footer>
+        <p id="creditos">@CursoEmVideo</p>
+    </footer>
+</body>
+</html>
